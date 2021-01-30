@@ -1,0 +1,28 @@
+{
+  "name": "@maviola5/prometheus",
+  "version": "1.0.0",
+  "description": "CLI scaffolding tool for aws lambda-based microservices.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/maviola5/prometheus.git",
+  "bin": {
+    "scaffold": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tony Viola",
+  "license": "ISC",
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "colors": "^1.4.0",
+    "prompt": "^1.1.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "@types/shelljs": "^0.8.8",
+    "typescript": "^4.1.3"
+  }
+}
