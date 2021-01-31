@@ -1,6 +1,6 @@
 {
   "name": "@maviola5/prometheus",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "CLI scaffolding tool for aws lambda-based microservices.",
   "main": "dist/index.js",
   "repository": "https://github.com/maviola5/prometheus.git",
